@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Mevent Register</title>
+<link rel="stylesheet" type="text/css" href="registerStyle.css">
+</head>
+
+<body>
+<!---- Navigationbar starter her --->
+<header>
+<div class="container">
+    <a href="index.html">
+    <img src="Logo1.jpg" alt="logo" class="logo">
+    </a>
+</div>
+</header>
+<!---- Navigationbar slutter her --->
+
+<!---- Tekst og baggrund på body starter her --->
+<section>
+<div class="background">
+<img src="blue.png" style="width: 100%">
+
+<div class="login-page">
+<div class="form">
+    <form class="register-form">
+    <p class="Oprettext">Opret din bruger her</p>
+    <input id="fornavn" type="text" placeholder="fornavn"/>
+    <input id="efternavn" type="text" placeholder="efternavn"/>
+    <input id="email" type="text" placeholder="email"/>
+    <input id="adgangskode" type="text" placeholder="adgangskode"/>
+    <input id="gentagAdgangskode" type="text" placeholder="gentag adgangskode"/>
+    <a href="index.html" id="tilbagetilforside">Tilbage til forsiden</a>
+    </form>
+    </div>
+    <a  id="Create" onclick="saveToLocalStorage()">
+    <button>Opret</button>
+    </a>
+    <script type="text/javascript" src="Register.js"></script>
+    </div>
+
+<div id="userdiv"></div>
+</div>
+</section>
+</body>
+<!---- Tekst og baggrund på body slutter her --->
+    
+<!---- Footer starter her --->
+<section>
+<footer>
+<ul>
+<li><a href="#">Terms and Condition</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="#">About us</a></li>
+<li><a href="#">...</a></li>
+</ul>
+</footer>
+</section>
+<!---- Footer slutter her --->
+</html>

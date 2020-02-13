@@ -1,0 +1,132 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    font-family: "Verdana"
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login{
+    float: right;
+    margin-right: 20;
+    padding-top: 5px;
+}
+
+.login li{
+    font-size: 14;
+    list-style: none;
+}
+
+.login li a{
+    font-family: "Verdana";
+    text-decoration: none;
+    color: black;
+
+}
+
+.login li a:hover{
+    color: lightblue;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 49px;
+    padding-top: 40px;
+}
+
+nav ul li a{
+    color: darkslategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: lightblue;
+}
+
+.logo{
+    float: left;
+    height: 100px;
+}
+
+#background img{
+    height: 439;
+}
+
+#background{
+    font-family: "Verdana";
+}
+.background {
+    position: relative;
+    text-align: center;
+    color: ;
+}
+
+#luft {
+    height: 25;
+}
+
+#tableStole img {
+    height: 184px;
+    margin-left: 100;
+    margin-right: 100;
+    object-fit: cover;
+    width: 230px;
+}
+
+#tableStole th {
+    font-family: "Verdana";
+    font-size: 20;
+    text-align: center;
+}
+
+#tableStole td p {
+    font-family: "Verdana";
+    font-size: 12;
+    text-align: left;
+    padding-left: 125
+}
+
+#tableStole td button{
+    float: right;
+    margin-right: 75;
+    background-color: green;
+    font-size: 13;
+    color: white;
+    font-family: "Verdana"
+}
+
+#tableStole td button:hover{
+    color: black;
+}
+
+footer{
+    background-color: lightgray;
+    font-family: "Verdana";
+    font-size: 12;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0 10;
+    padding: 5;
+}
+
+footer ul li{
+    margin: 7 0;
+}
+
+footer ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
